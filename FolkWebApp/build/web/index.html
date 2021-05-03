@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TermProject</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    
+    <body style="background-image: url('https://wallpaperaccess.com/full/117269.jpg');">
+        <div style="background-color:hsla(9, 100%, 64%, 0.5);"> 
+        <center>
+        <h1> ข้อมูลของนิทานพื้นบ้านและของเล่นพื้นบ้าน </h1>
+
+        <form action="FolkServlet" method="post">
+
+        <h4> เลือกข้อมูลที่ต้องการ: </h4>
+        <select name="folk">
+            <option value= "1">นิทานพื้นบ้าน</option>
+            <option value= "2">ของเล่นพื้นบ้าน</option>
+        </select>
+        <input type=submit value="Submit">
+     </form>
+      </center>
+        </div>
+    </body>
+</html>
